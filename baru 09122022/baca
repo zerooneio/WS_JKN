@@ -1,0 +1,9 @@
+ws ini sudah di edit beberapa penambahan
+
+status .jar :
+1. KhanzaHMSServiceMobileJKNERM.jar = berisikan semua dari Mjkn + nonbpjs + onsite
+2. KhanzaHMSServiceMobileJKNERMnonbpjs+onsite.jar = pemecahan hanya berisikan non bpjs + pasien bpjs onsite
+3. KhanzaHMSServiceMobileJKNERMMJKN.jar = pemecahan berisikan pasien BPJS yang daftar dari Mjkn
+
+penambahan :
+edit saat respon 208 di mjkn akan tetap di baca dan merubah referensi_mobilejkn_bpjs set statuskirim='Sudah' dan edit task id 3 saat di batalkan dan ambil antrian kembali tidak baca kode booking yang batal
